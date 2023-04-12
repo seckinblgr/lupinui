@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'lupinui'
+import { Button } from 'lupinui'
 import 'lupinui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <div className='container'>
+        <Button text={'Primary'} type={'primary'} />
+        <Button text={'Dashed'} type={'dashed'} />
+        <Button text={'Text'} type={'text'} />
+        <Button text={'Link'} type={'link'} />
+      </div>
+    </>
+  )
 }
 
 export default App

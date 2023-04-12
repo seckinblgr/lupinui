@@ -1,9 +1,67 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 10%;
+}
+
+.btn {
+  background-color: #d4d4d4;
+  color: rgb(0, 0, 0);
+  padding: 1.2rem 4rem;
+  border-radius: 20px;
+  border: 2px solid #970a0a3c;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
   text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+ 
+}
+
+
+.primary {
+  color: white;
+  
+}
+
+.primary:hover {
+ cursor: pointer;
+ color: #0a0a0a;
+  box-shadow: 0 0 20px #2c322d;
+  text-decoration: none;
+}
+
+
+.dashed {
+  background: none;
+  border: 2px  dashed red;
+
+}
+
+.dashed:hover{
+  background-color: rgba(255, 0, 0, 0.242);
+}
+
+.text {
+  background: none;
+  border: 1px solid rgba(0, 255, 81, 0.415);
+}
+
+
+
+.link {
+  border: 1px solid aqua;
+  background-color: #188bf6;
+  color:white;
+
+}
+.link:hover{
+  cursor: pointer;
+  color:white;
+  box-shadow: 0 0 20px #7988f9;
 }
