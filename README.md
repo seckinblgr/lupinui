@@ -20,7 +20,13 @@ import 'lupinui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return 
+      <div className='container'>
+        <Button text={'Primary'} type={'primary'} />
+        <Button text={'Dashed'} type={'dashed'} />
+        <Button text={'Text'} type={'text'} />
+        <Button text={'Link'} type={'link'} />
+      </div>
   }
 }
 ```
